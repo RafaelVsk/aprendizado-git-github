@@ -1,0 +1,28 @@
+Configuração e Inicialização:
+git init: Inicializa um repositório Git em um diretório.
+git clone <URL>: Clona um repositório existente para o seu sistema local.
+Gerenciamento de Alterações:
+git add <arquivo>: Adiciona um arquivo ao staging area para prepará-lo para o commit.
+git commit -m "Mensagem do commit": Confirma as alterações com uma mensagem descritiva.
+git status: Mostra o estado atual das alterações no repositório.
+git diff: Exibe as diferenças entre arquivos não confirmados.
+Ramificação e Fusão:
+git branch: Lista todas as branches locais.
+git checkout -b <nome-da-branch>: Cria uma nova branch e muda para ela.
+git checkout <nome-da-branch>: Altera para uma branch existente.
+git merge <nome-da-branch>: Realiza a fusão de uma branch na branch atual.
+git branch -d <nome-da-branch>: Exclui uma branch específica.
+Sincronização com Repositórios Remotos:
+git remote add origin <URL>: Conecta o repositório local a um repositório remoto.
+git push origin <nome-da-branch>: Envia alterações locais para um repositório remoto.
+git pull origin <nome-da-branch>: Atualiza o repositório local com alterações do repositório remoto.
+Histórico e Análise:
+git log: Mostra o histórico de commits.
+git show <hash-do-commit>: Exibe informações detalhadas sobre um commit específico.
+git blame <arquivo>: Mostra quem alterou as linhas de um arquivo e em qual commit.
+Resolução de Conflitos:
+git merge --abort: Aborta o processo de merge em caso de conflitos.
+git mergetool: Abre uma ferramenta para ajudar a resolver conflitos de merge.
+Outros:
+git stash: Salva as mudanças em um local temporário para uso posterior.
+git cherry-pick <hash-do-commit>: Adiciona um commit específico de uma branch para a branch atual.

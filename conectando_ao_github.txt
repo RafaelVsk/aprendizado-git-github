@@ -1,0 +1,42 @@
+Passos para conectar um repositório local ao GitHub:
+Crie um repositório no GitHub:
+
+Acesse o GitHub e crie um novo repositório. Anote o link do repositório (geralmente começa com https://github.com/username/nome-do-repositorio.git).
+
+No terminal (linha de comando):
+
+Vá para o diretório do seu repositório local usando o terminal:
+
+bash
+Copy code
+cd caminho/para/seu/repo
+Adicione o URL do repositório remoto do GitHub:
+
+Utilize o comando git remote add origin para adicionar o repositório remoto do GitHub:
+
+bash
+Copy code
+git remote add origin URL_DO_SEU_REPOSITORIO_NO_GITHUB
+Substitua URL_DO_SEU_REPOSITORIO_NO_GITHUB pelo link do repositório criado no GitHub.
+
+Verifique a conexão:
+
+Para verificar se o repositório remoto foi configurado corretamente, utilize o comando:
+
+bash
+Copy code
+git remote -v
+Isso mostrará os repositórios remotos configurados.
+
+Envie seu repositório local para o GitHub:
+
+Use os comandos para enviar suas alterações para o repositório remoto:
+
+bash
+Copy code
+git add .
+git commit -m "Mensagem do commit"
+git push -u origin main
+Isso adiciona, faz o commit e envia os arquivos para o repositório no GitHub. Substitua main pelo nome da sua branch principal, se for diferente.
+
+Com esses passos, seu repositório local do Git estará conectado ao repositório remoto no GitHub. Você poderá enviar e receber alterações entre o repositório local e o remoto utilizando os comandos git push e git pull respectivamente.
