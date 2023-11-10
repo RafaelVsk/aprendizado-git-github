@@ -1,0 +1,9 @@
+Git:
+Sistema de Controle de Versão Distribuído: O Git é um sistema de controle de versão distribuído que rastreia e gerencia mudanças no código fonte de um projeto. Permite controlar diferentes versões de arquivos ao longo do tempo, facilitando a colaboração e o gerenciamento de alterações entre os membros da equipe.
+
+Funcionamento Local: Cada desenvolvedor possui uma cópia completa do repositório Git no seu próprio sistema, o que permite o trabalho offline, histórico completo das alterações e ramificações para desenvolver novos recursos isoladamente.
+
+GitHub:
+Plataforma de Hospedagem e Colaboração: O GitHub é uma plataforma online que utiliza o Git para armazenar repositórios de código. Oferece um ambiente onde desenvolvedores podem hospedar seus repositórios Git, trabalhar em colaboração e compartilhar projetos com outras pessoas.
+
+Recursos de Colaboração: Facilita o processo de contribuição em projetos de código aberto e propicia ferramentas para revisão de código (pull requests), controle de problemas (issues), gerenciamento de projetos, entre outros.
